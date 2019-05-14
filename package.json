@@ -1,0 +1,16 @@
+{
+  "name": "amp-story-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^8.1.1-canary.28",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
