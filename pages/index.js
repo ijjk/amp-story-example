@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import { withAmp } from 'next/amp'
 
-export default withAmp(() => (
+export const config = { amp: true }
+
+export default () => (
   <>
     <Head>
       <title>Example AMP Story in Next.js</title>
@@ -90,4 +91,4 @@ export default withAmp(() => (
       </amp-story-bookend>
     </amp-story>
   </>
-))
+)
